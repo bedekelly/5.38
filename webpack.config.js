@@ -2,10 +2,10 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './src/index.js',
-  output: { path: __dirname + "/dist", filename: 'bundle.js' },
-  module: {
-  rules: [
+  entry: './src/index.js',
+  output: { path: __dirname + "/dist", filename: 'bundle.js' },
+  module: {
+  rules: [
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',
