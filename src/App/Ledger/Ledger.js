@@ -4,12 +4,12 @@ import LedgerTitle from './LedgerTitle';
 import LedgerItems from './LedgerItems';
 
 
-const Ledger = ({ entries }) =>
-  <React.Fragment>
+function Ledger({ entries }) {
+  return <React.Fragment>
     <LedgerTitle />
     <LedgerItems items={entries} />
   </React.Fragment>
-  
+}
 
 
 export default Ledger;

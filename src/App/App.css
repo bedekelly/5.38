@@ -3,10 +3,3 @@ html, body {
   padding: 0;
 }
 
-.left-bar * {
-  display: none;
-}
-
-.right-bar * {
-  display: none;
-}

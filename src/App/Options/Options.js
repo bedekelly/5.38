@@ -1,18 +1,21 @@
 import React from 'react';
+import uuidv4 from 'uuid/v4';
 
 import Option from './Option';
 
 import './Options.css';
 
 
-const Options = ({ options, chooseOption }) =>
-  <section className="options">
+function Options({ options, chooseOption }) {
+  return <section className="options">
     { 
-      (options || []).map(
-        option => <Option text={option} ifChosen={() => chooseOption(option)} />
+      options.length &&
+      options.map(option =>
+        <Option text={option} ifChosen={() => chooseOption(option)} key={uuidv4()} />
       )
     }
-  </section>
-  
+  </section>;
+}
+
 
 export default Options;

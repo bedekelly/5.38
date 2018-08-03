@@ -1,9 +1,11 @@
 import React from 'react';
 
 
-const Option = ({ text, ifChosen }) =>
-  <button onClick={ifChosen}>
+function Option({ text, ifChosen }) {
+  return <button onClick={ifChosen}>
     { text }
-  </button>
+  </button>;
+}
+
 
 export default Option;

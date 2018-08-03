@@ -5,10 +5,11 @@ import LedgerItem from './LedgerItem';
 import './LedgerItems.css';
 
 
-const LedgerItems = ({ items }) =>
-  <ul className="ledger-items">
+function LedgerItems({ items }) {
+  return <ul className="ledger-items">
     { items.map(LedgerItem) }
-  </ul>
+  </ul>;
+}
 
 
 export default LedgerItems;

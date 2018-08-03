@@ -3,10 +3,19 @@ import React from 'react';
 import Ledger from '../Ledger';
 import Inventory from '../Inventory';
 
+import Mobile from './MediaQueries/Mobile';
+import Desktop from './MediaQueries/Desktop';
+
+
 const LeftBar = props =>
   <section className="left-bar">
-    <Ledger entries={props.ledgerEntries} />
-    <Inventory items={props.inventory} />
+    <Desktop>
+      <Ledger entries={props.ledgerEntries} />
+    </Desktop>
+
+    <Mobile>
+      <Inventory items={props.inventory} />
+    </Mobile>
   </section>
 
   

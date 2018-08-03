@@ -1,3 +1,4 @@
 .inventory {
-  grid-area: inventory;
+  display: none;
 }
+

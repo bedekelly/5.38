@@ -1,4 +1,22 @@
 .options {
+  box-sizing: border-box;
   position: absolute;
   bottom: 0;
+  width: 100vw;
+  height: 25vmax;
+  left: 0;
+  border: 1px solid black;
+  overflow: scroll;
+}
+
+@media(max-width: 450px) {
+  .options {
+    height: 15vmax;
+  }
+}
+
+@media(orientation: landscape) {
+  .options {
+    height: 15vh;
+  }
 }

@@ -16,9 +16,7 @@ class App extends React.Component {
   }
   
   render() {
-    // Todo: find babel object destructuring plugin.
-    const props = JSON.parse(JSON.stringify(this.state));
-    props.chooseOption = this.chooseOption;
+    const props = {...this.state, chooseOption: this.chooseOption}
 
     return <React.Fragment>
       <LeftBar {...props} />

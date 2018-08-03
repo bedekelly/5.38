@@ -7,12 +7,13 @@ import Description from './Description';
 import './RoomInfo.css';
 
 
-const RoomInfo = ({ title, subtitle, description }) => 
-  <section className="room-info">
+function RoomInfo({ title, subtitle, description }) { 
+  return <section className="room-info">
     <Title text={title} />
     <Subtitle text={subtitle} />
     <Description text={description} />
-  </section>
-  
+  </section>;
+}
+
 
 export default RoomInfo;

@@ -4,6 +4,10 @@ var webpack = require('webpack');
 module.exports = {
   entry: './src/index.js',
   output: { path: __dirname + "/dist", filename: 'bundle.js' },
+    mode: 'development',
+  performance: {
+    hints: process.env.NODE_ENV === 'production' ? "warning" : false
+  },
   module: {
   rules: [
       {
