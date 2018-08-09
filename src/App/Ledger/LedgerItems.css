@@ -1,5 +1,6 @@
 .ledger-items {
   list-style: none;
   padding: 0 10px 0 10px;
-  border-left: 3px solid black;
+  border-left: 0.7vw solid black;
+  border-right: 2vw solid white;
 }
