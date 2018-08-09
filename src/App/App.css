@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Serif|Cardo');
+
 html, body {
   margin: 0;
   padding: 0;
+  color: #222;
 }
 

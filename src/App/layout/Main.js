@@ -1,24 +1,25 @@
 import React from 'react';
 
-import RoomTitle from '../RoomInfo/RoomTitle';
-import RoomSubtitle from '../RoomInfo/RoomSubtitle';
-import RoomDescription from '../RoomInfo/RoomDescription';
-import Options from '../Options';
-import Ledger from '../Ledger';
-import Scrollable from './Scrollable.js';
+import { Mobile, Desktop, Portrait, Landscape } from './MediaQueries';
+import MobileLayout from './MobileLayout';
 
 import './Main.css';
 
 
 function Main(props) {
   return <section className="main">
-    <RoomTitle text={props.room.title}></RoomTitle>
-    <RoomSubtitle text={props.room.subtitle}></RoomSubtitle>
-    <Scrollable maxHeight={150}>
-      <RoomDescription text={props.room.description} />
-      <Ledger entries={props.ledgerEntries} />
-    </Scrollable>
-    <Options options={props.options} chooseOption={props.chooseOption} />
+    <Desktop>
+      Desktop layout
+    </Desktop>
+
+    <Mobile>
+      <Portrait>
+        <MobileLayout {...props} />
+      </Portrait>
+      <Landscape>
+        Mobile landscape not supported.
+      </Landscape>
+    </Mobile>
   </section>;
 }
 

@@ -16,13 +16,8 @@ class App extends React.Component {
   }
   
   render() {
-    const props = {...this.state, chooseOption: this.chooseOption}
-
-    return <React.Fragment>
-      <LeftBar {...props} />
-      <Main {...props} />
-      <RightBar {...props} />
-    </React.Fragment>
+    const props = {...this.state, chooseOption: this.chooseOption};
+    return <Main {...props} />
   }
   
   chooseOption(option) {

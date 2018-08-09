@@ -1,1 +1,4 @@
-export { default } from './RoomInfo';
+import RoomHeading from './RoomHeading';
+import RoomDescription from './RoomDescription';
+
+export { RoomHeading, RoomDescription };

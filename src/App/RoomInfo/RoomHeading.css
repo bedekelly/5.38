@@ -1,0 +1,24 @@
+h1, h2 {
+  
+  text-align: center;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow';
+  font-size: 22pt;
+  line-height: 0.5;
+
+}
+
+h2 {
+  font-family: 'Cardo';
+  font-style: italic;
+  font-size: 15pt;
+}
+
+.room-heading {
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

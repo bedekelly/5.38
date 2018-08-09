@@ -1,8 +1,9 @@
 import React from 'react';
 
+import './RoomDescription.css';
 
 function Description({ text }) {
-  return <p>{ text }</p>;
+  return <p className="room-description">{ text }</p>;
 }
   
   

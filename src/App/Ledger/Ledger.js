@@ -4,9 +4,9 @@ import LedgerTitle from './LedgerTitle';
 import LedgerItems from './LedgerItems';
 
 
-function Ledger({ entries }) {
+function Ledger({ entries, title }) {
   return <React.Fragment>
-    <LedgerTitle />
+    { title && <LedgerTitle /> }
     <LedgerItems items={entries} />
   </React.Fragment>
 }

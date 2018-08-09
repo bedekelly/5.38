@@ -18,7 +18,7 @@ class MediaQuery extends React.Component {
   updateMatch(mediaMatch) {
     this.state.visible = mediaMatch.matches;
   }
-    
+
 }
 
 

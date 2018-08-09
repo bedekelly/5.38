@@ -1,0 +1,20 @@
+.room-description:before {
+  content: '\2739\2739\2739';
+  display: block;
+  position: absolute;
+  top: -2.5vh;
+  left: calc(50% - 1rem);
+}
+
+.room-description {
+  font-family: "PT Serif";
+  line-height: 15pt;
+  font-size: 11pt;
+}
+
+.room-description::first-letter {
+  font-size: 18pt;
+  line-height: 15pt;
+  padding-right: 1px;
+  vertical-align: baseline;
+}
