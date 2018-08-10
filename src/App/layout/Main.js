@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Mobile, Desktop, Portrait, Landscape } from './MediaQueries';
 import MobileLayout from './MobileLayout';
+import DesktopLayout from './DesktopLayout';
 
 import './Main.css';
 
@@ -9,7 +10,7 @@ import './Main.css';
 function Main(props) {
   return <section className="main">
     <Desktop>
-      Desktop layout
+      <DesktopLayout {...props} />
     </Desktop>
 
     <Mobile>

@@ -18,3 +18,10 @@
   padding-right: 1px;
   vertical-align: baseline;
 }
+
+@media(min-width: 768px) {
+  .room-description {
+    grid-area: story;
+    margin-bottom: 2vh;
+  }
+}

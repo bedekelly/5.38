@@ -26,3 +26,22 @@
   top: 0;
   right: -2vw;
 }
+
+
+@media(min-width: 768px) {
+  .option {
+    border: 1px solid #777;
+    margin: 1vw;
+    padding: 1vw;
+    min-width: inherit;
+  }
+  
+  .option:active {
+    color: blue;
+    background: inherit;
+  }
+  
+  .option:focus {
+    outline: 0;
+  }
+}

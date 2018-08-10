@@ -9,8 +9,8 @@ import './Inventory.css';
 function Inventory({ items }) {
   return <section className="inventory">
     <h1>Inventory</h1>
-    <ul>
-      { 
+    <ul className="inventory-list">
+      {
         items.map(item =>
           <InventoryItem key={uuidv4()} {...item} />
         )

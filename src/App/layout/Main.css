@@ -1,3 +1,16 @@
 .main {
   margin: 0 6vmax 0 6vmax;
 }
+
+@media (min-width: 768px) {
+  .main {
+    margin: 0 5vw 0 5vw;
+    display: grid;
+    grid-template-areas: "empty heading"
+                         "inventory story"
+                         "inventory ledger"
+                         "options options";
+    grid-template-columns: 2fr 5fr;
+    max-height: 100%;
+  }
+}

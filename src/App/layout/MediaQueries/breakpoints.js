@@ -1,1 +1,1 @@
-export const mobileWidth = 700;  // pixels
+export const mobileWidth = 767;  // pixels

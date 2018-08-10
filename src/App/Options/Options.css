@@ -5,3 +5,14 @@
   padding-bottom: 1vh;
   overflow-x: auto;
 }
+
+@media (min-width: 768px) {
+  .options {
+    display: flex;
+    grid-area: options;
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: center;
+    height: 100%;
+  }
+}

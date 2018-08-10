@@ -4,3 +4,11 @@
   border-left: 0.7vw solid black;
   border-right: 2vw solid white;
 }
+
+
+@media(min-width: 768px) {
+  .ledger-items {
+    grid-area: ledger;      
+    padding-left: 2.5vw;
+  }
+}

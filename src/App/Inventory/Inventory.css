@@ -1,4 +1,13 @@
 .inventory {
-  display: none;
+  font-family: 'PT Serif';
+  grid-area: inventory;
 }
 
+.inventory li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+.inventory-list {
+  padding: 0;
+}
