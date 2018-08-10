@@ -2,7 +2,8 @@
   content: '\2739\2739\2739';
   display: block;
   position: absolute;
-  top: -4vh;
+  top: -2vh;
+  z-index: 1;
   left: calc(50% - 1rem);
 }
 
