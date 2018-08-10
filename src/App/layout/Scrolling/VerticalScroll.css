@@ -8,6 +8,7 @@
 
 .scrollable-container:before {
     content: '';
+    z-index: 1;
     background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     height: 2vh;
     position: absolute;

@@ -11,6 +11,8 @@
                          "inventory ledger"
                          "options options";
     grid-template-columns: 2fr 5fr;
+    grid-template-rows: 25fr 15fr 30fr 30fr;
     max-height: 100%;
+    grid-row-gap: 1vh;
   }
 }

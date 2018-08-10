@@ -17,7 +17,6 @@ h2 {
 }
 
 .room-heading {
-  height: 28vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
