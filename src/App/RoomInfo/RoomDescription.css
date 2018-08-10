@@ -1,28 +1,52 @@
-.room-description:before {
-  content: '\2739\2739\2739';
-  display: block;
-  position: absolute;
-  top: -2vh;
-  z-index: 1;
-  left: calc(50% - 1rem);
-}
+@media(max-width: 767px) {
+  .room-description {
+    grid-area: story;
+    margin-bottom: 2vh;
+  }
 
-.room-description {
-  font-family: "PT Serif";
-  line-height: 15pt;
-  font-size: 11pt;
-}
+  .room-description:before {
+    content: '\2739\2739\2739';
+    display: block;
+    position: absolute;
+    top: -2vh;
+    z-index: 1;
+    left: calc(50% - 1rem);
+  }
 
-.room-description::first-letter {
-  font-size: 18pt;
-  line-height: 15pt;
-  padding-right: 1px;
-  vertical-align: baseline;
+  .room-description {
+    font-family: "PT Serif";
+    line-height: 15pt;
+    font-size: 11pt;
+  }
+
+  .room-description::first-letter {
+    font-size: 18pt;
+    line-height: 15pt;
+    padding-right: 1px;
+    vertical-align: baseline;
+  }
 }
 
 @media(min-width: 768px) {
   .room-description {
     grid-area: story;
     margin-bottom: 2vh;
+    position: relative;
+  }
+  
+  .room-description::first-letter {
+    font-size: 18pt;
+    line-height: 15pt;
+    padding-right: 1px;
+    vertical-align: baseline;
+  }
+  
+  .room-description:before {
+    content: '\2739\2739\2739';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 1rem);
+    top: -4vh;
   }
 }

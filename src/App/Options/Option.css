@@ -30,10 +30,15 @@
 
 @media(min-width: 768px) {
   .option {
-    border: 1px solid #777;
-    margin: 1vw;
-    padding: 1vw;
+    border: none;
     min-width: inherit;
+    min-height: 1vh;
+    height: auto;
+  }
+  
+  .option:hover {
+    font-weight: bold;
+    cursor: pointer;
   }
   
   .option:active {

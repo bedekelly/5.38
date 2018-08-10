@@ -10,5 +10,6 @@
   .ledger-items {
     grid-area: ledger;      
     padding-left: 2.5vw;
+    border-left: 0.3vw solid black;
   }
 }
