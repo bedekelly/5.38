@@ -2,6 +2,9 @@
   .room-description {
     grid-area: story;
     margin-bottom: 2vh;
+    font-family: "PT Serif";
+    line-height: 15pt;
+    font-size: 11pt;
   }
 
   .room-description:before {
@@ -14,9 +17,7 @@
   }
 
   .room-description {
-    font-family: "PT Serif";
-    line-height: 15pt;
-    font-size: 11pt;
+
   }
 
   .room-description::first-letter {
@@ -29,9 +30,10 @@
 
 @media(min-width: 768px) {
   .room-description {
+    font-size: 15pt;
     grid-area: story;
-    margin-bottom: 2vh;
     position: relative;
+    margin-top: 0;
   }
   
   .room-description::first-letter {

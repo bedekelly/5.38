@@ -8,7 +8,7 @@ import './Inventory.css';
 
 function Inventory({ items }) {
   return <section className="inventory">
-    <h1>Inventory</h1>
+    <h3>Inventory</h3>
     <ul className="inventory-list">
       {
         items.map(item =>

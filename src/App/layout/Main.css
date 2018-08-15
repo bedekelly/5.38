@@ -4,15 +4,12 @@
 
 @media (min-width: 768px) {
   .main {
-    margin: 0 auto;
-    
     margin: 0 5vh 0 5vh;
-    
     display: grid;
     grid-template-areas: "empty heading"
                          "inventory story"
                          "inventory ledger"
-                         "options options";
+                         "inventory options";
     grid-template-columns: 2fr 5fr;
     grid-template-rows: 25fr 15fr 30fr 30fr;
     max-height: 100%;

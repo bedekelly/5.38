@@ -17,3 +17,9 @@
     height: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .options {
+    margin-bottom: 3vh;
+  }
+}

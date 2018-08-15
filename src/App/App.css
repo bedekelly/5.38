@@ -6,3 +6,9 @@ html, body {
   color: #222;
 }
 
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

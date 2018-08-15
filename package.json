@@ -24,6 +24,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "NODE_ENV=development webpack-dev-server --open --host=0.0.0.0"
   }
 }

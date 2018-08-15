@@ -34,11 +34,13 @@
     min-width: inherit;
     min-height: 1vh;
     height: auto;
+    cursor: pointer;
   }
   
   .option:hover {
     font-weight: bold;
-    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
   }
   
   .option:active {
