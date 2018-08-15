@@ -6,16 +6,15 @@
   .main {
     margin: 0 5vh 0 5vh;
     display: grid;
-    grid-template-areas: "empty heading"
-                         "inventory story"
+    grid-template-areas: "heading heading"
+                         "story story"
                          "inventory ledger"
                          "inventory options";
     grid-template-columns: 2fr 5fr;
-    grid-template-rows: 25fr 15fr 30fr 30fr;
+    grid-template-rows: 25fr 15fr 35fr 25fr 5fr;
     max-height: 100%;
     grid-row-gap: 1vh;
     max-width: 900px;
-    
   }
 }
 

@@ -2,6 +2,10 @@
   margin-bottom: 10px;
 }
 
+.ledger-item {
+  font-size: 14pt;
+}
+
 @media(max-width: 768px) {
   .ledger-item {
     font-size: 9.5pt;

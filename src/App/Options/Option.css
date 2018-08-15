@@ -30,25 +30,8 @@
 
 @media(min-width: 768px) {
   .option {
-    border: none;
     min-width: inherit;
-    min-height: 1vh;
-    height: auto;
-    cursor: pointer;
-  }
-  
-  .option:hover {
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
-  }
-  
-  .option:active {
-    color: blue;
-    background: inherit;
-  }
-  
-  .option:focus {
-    outline: 0;
+    min-height: 0;
+    line-height: 2;
   }
 }

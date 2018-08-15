@@ -3,7 +3,7 @@ import React from 'react';
 import './VerticalScroll.css';
 
 
-function Scrollable({ maxHeight, children, gridArea }) {
+function VerticalScroll({ maxHeight, children, gridArea }) {
   const outerStyle = { gridArea };
   const innerStyle = { maxHeight };
   return (
@@ -16,4 +16,4 @@ function Scrollable({ maxHeight, children, gridArea }) {
 }
   
   
-export default Scrollable;
+export default VerticalScroll;
