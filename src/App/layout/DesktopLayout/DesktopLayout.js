@@ -4,7 +4,7 @@ import Inventory from '../../Inventory';
 import { RoomHeading, RoomDescription } from '../../RoomInfo';
 import Ledger from '../../Ledger';
 import Options from '../../Options';
-import { VerticalScroll } from '../Scrolling';
+import { VerticalScroll, HorizontalScroll } from '../Scrolling';
 
 
 function DesktopLayout({ inventory, room, ledgerEntries, options, chooseOption }) {
@@ -16,9 +16,9 @@ function DesktopLayout({ inventory, room, ledgerEntries, options, chooseOption }
       <VerticalScroll gridArea="ledger" maxHeight="30vh">
         <Ledger entries={ledgerEntries} />
       </VerticalScroll>
-      <VerticalScroll gridArea="options">
+      <HorizontalScroll gridArea="options" maxWidth="19vh">
         <Options options={options} chooseOption={chooseOption}/>
-      </VerticalScroll>
+      </HorizontalScroll>
     </React.Fragment>
   );
 }

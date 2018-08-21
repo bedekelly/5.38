@@ -9,7 +9,8 @@
 @media(min-width: 768px) {
   .ledger-items {
     grid-area: ledger;      
-    padding-left: 2.5vw;
     border-left: 0;
+    border-right: 8vw solid white;
+    padding: 0;
   }
 }

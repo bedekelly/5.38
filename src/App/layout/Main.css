@@ -9,9 +9,10 @@
     grid-template-areas: "heading heading"
                          "story story"
                          "inventory ledger"
-                         "inventory options";
+                         "options options"
+                         "empty empty";
     grid-template-columns: 2fr 5fr;
-    grid-template-rows: 25fr 15fr 35fr 25fr 5fr;
+    grid-template-rows: 24fr 17fr 36fr 19fr 5fr;
     max-height: 100%;
     grid-row-gap: 1vh;
     max-width: 900px;

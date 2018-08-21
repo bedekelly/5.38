@@ -16,10 +16,6 @@
     left: calc(50% - 1rem);
   }
 
-  .room-description {
-
-  }
-
   .room-description::first-letter {
     font-size: 18pt;
     line-height: 15pt;
@@ -47,11 +43,15 @@
   }
   
   .room-description:before {
+    display: none;
+  }
+  
+  .room-description:after {
     content: '\2739\2739\2739';
     display: block;
-    position: absolute;
-    z-index: 1;
-    left: calc(50% - 1rem);
-    top: -4vh;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    bottom: -1vh;
   }
 }

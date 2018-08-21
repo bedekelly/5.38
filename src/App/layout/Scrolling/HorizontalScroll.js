@@ -3,11 +3,12 @@ import React from 'react';
 import './HorizontalScroll.css';
 
 
-function HorizontalScroll({ maxHeight, children }) {
-  const style = { maxHeight: `${ maxHeight }` };
+function HorizontalScroll({ maxHeight, children, gridArea }) {
+  const innerStyle = { maxHeight };
+  const outerStyle = { maxHeight, gridArea }
   return (
-    <div className="h-scrollable-container" style={ style }>
-      <div className="h-scrollable" style={ style }>
+    <div className="h-scrollable-container" style={ outerStyle }>
+      <div className="h-scrollable" style={ innerStyle }>
         { children }
       </div>
     </div>

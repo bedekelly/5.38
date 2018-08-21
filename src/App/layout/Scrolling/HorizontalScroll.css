@@ -1,9 +1,12 @@
 .h-scrollable-container {
   position: relative;
+  width: 100%;
 }
 
 .h-scrollable {
-  overflow: scroll;
+  overflow-x: auto;
+  width: 100%;
+  display: flex;
 }
 
 .h-scrollable-container:before {
