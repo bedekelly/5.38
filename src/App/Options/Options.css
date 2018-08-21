@@ -16,5 +16,8 @@
     overflow-x: scroll;
     width: 100%;
     flex-flow: column wrap;
+    max-width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

@@ -16,7 +16,7 @@ function DesktopLayout({ inventory, room, ledgerEntries, options, chooseOption }
       <VerticalScroll gridArea="ledger" maxHeight="30vh">
         <Ledger entries={ledgerEntries} />
       </VerticalScroll>
-      <HorizontalScroll gridArea="options" maxWidth="19vh">
+      <HorizontalScroll gridArea="options" maxWidth="37.5rem">
         <Options options={options} chooseOption={chooseOption}/>
       </HorizontalScroll>
     </React.Fragment>
