@@ -4,7 +4,7 @@ import './HorizontalScroll.css';
 
 
 function HorizontalScroll({ maxHeight, maxWidth, children, gridArea }) {
-  const innerStyle = { maxHeight, maxWidth };
+  const innerStyle = { maxHeight };
   const outerStyle = { maxHeight, maxWidth, gridArea }
   return (
     <div className="h-scrollable-container" style={ outerStyle }>

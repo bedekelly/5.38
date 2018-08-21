@@ -10,7 +10,7 @@
   .ledger-items {
     grid-area: ledger;      
     border-left: 0;
-    border-right: 8vw solid white;
+    border-right: 3vw solid white;
     padding: 0;
   }
 }

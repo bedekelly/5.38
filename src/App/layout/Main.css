@@ -11,7 +11,7 @@
                          "inventory ledger"
                          "options options"
                          "empty empty";
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 3fr 5fr;
     grid-template-rows: 24fr 17fr 36fr 19fr 5fr;
     max-height: 100%;
     grid-row-gap: 1vh;
