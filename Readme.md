@@ -2,4 +2,6 @@
 
 ### A simple text-based browser game. Playable on mobile and desktop.
 
-![Screenshot of 5:38](Screenshot.png)
+![Mobile screenshot](mobile.png)
+
+![Desktop screenshot](desktop.png)
