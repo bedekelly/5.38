@@ -13,6 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = initialState;
     this.chooseOption = this.chooseOption.bind(this);
+    this.updateOptions();
   }
   
   render() {
@@ -24,6 +25,18 @@ class App extends React.Component {
     console.log(`Option ${JSON.stringify(option)} clicked – not yet handled.`)
   }
   
+  updateOptions() {
+    const newOptions = this.state.options;
+    this.state.room.items.forEach(({ name, quantity }) => {
+      newOptions.push({
+        text: `Pick up ${quantity}x ${name}`,
+        action: () => {
+          this.state.inventory.push({ name, quantity })
+        }
+      });
+    });
+    this.setState({ options: newOptions });
+  }
 }
 
 

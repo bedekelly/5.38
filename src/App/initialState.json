@@ -1,58 +1,23 @@
 {
-  "options": [
-    "Pick up gas lamp",
-    "Open door",
-    "Look out of window",
-    "Drink a bottle",
-    "Pick up gas lamp",
-    "Open door",
-    "Look out of window",
-    "Pick up gas lamp",
-    "Open door",
-    "Look out of window",
-    "Pick up gas lamp",
-    "Open door",
-    "Look out of window",
-    "Pick up gas lamp",
-    "Open door",
-    "Look out of window",
-    "Pick up gas lamp",
-    "Open door",
-    "Look out of window"
-  ],
+  "options": [],
   "inventory": [
     {
-      "quantity": 3,
-      "name": "Oil wick"
-    },
-    {
       "quantity": 1,
-      "name": "Rusted Blunderbuss"
-    },
-    {
-      "quantity": 2,
-      "name": "Sauvignon Noir 1943"
+      "name": "Dusty Lamp"
     }
   ],
   "ledgerEntries": [
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door.",
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door.",
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door.",
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door.",
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door.",
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door.",
-    "You awaken after a snooze.",
-    "Looking around, you see little other than the small gas lamp and a thin metal door."
+    "You wake up after a snooze."
   ],
   "room": {
     "title": "A Dusty Attic",
     "subtitle": "This cramped space offers little comfort. Some more text.",
-    "description": "Roughly seven feet square, the walls seem like they're closing in on you. A gas lamp flickers weakly and sheds a meagre light on the dirty walls. A small, grimy window is almost too dirty to look through, but the outline of the factory outside is just visible."
+    "description": "Roughly seven feet square, the walls seem like they're closing in on you. A gas lamp flickers weakly and sheds a meagre light on the dirty walls. A small, grimy window is almost too dirty to look through, but the outline of the factory outside is just visible.",
+    "items": [
+      {
+        "quantity": 2,
+        "name": "Spent Match"
+      }
+    ]
   }
 }
