@@ -8,10 +8,10 @@ import './Options.css';
 
 function Options({ options, chooseOption }) {
   return <section className="options">
-    { 
+    {
       options.length &&
       options.map(option =>
-        <Option text={option} ifChosen={() => chooseOption(option)} key={uuidv4()} />
+        <Option text={option.text} ifChosen={option.ifChosen} key={uuidv4()} />
       )
     }
   </section>;

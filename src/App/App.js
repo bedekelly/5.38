@@ -13,7 +13,10 @@ class App extends React.Component {
     super(props);
     this.state = initialState;
     this.chooseOption = this.chooseOption.bind(this);
-    this.updateOptions();
+  }
+  
+  componentDidMount() {
+      this.updateOptions();
   }
   
   render() {
